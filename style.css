@@ -66,7 +66,7 @@ h1#name {
         height: 300px;
         width: 90vw;
         position: absolute;
-        top: 55%;
+        top:35%;
         left: 50%;
         transform: translate(-50%,-50%);
         z-index:0;
@@ -80,7 +80,7 @@ h1#name {
         height: 400px;
         width: 90vw;
         position: absolute;
-        top: 55%;
+        top:35%;
         left: 50%;
         transform: translate(-50%,-50%);
         z-index: -1;

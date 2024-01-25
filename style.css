@@ -46,6 +46,7 @@ h1#name {
     body {
         text-align: center;
         background-color: #F4EFE9;
+        height: 100vh;
     }
     
     h1#name {

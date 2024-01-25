@@ -1,95 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
 body {
     text-align: center;
     background-color: #F4EFE9;
     overflow: hidden !important;
+    background-color: #F2EDE7;
 }
 
-h1#name {
-    margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    color: #585858;
-    font-family: 'PT Serif', serif;
-    font-size: 50px;
-    letter-spacing: 5px;
-   
+* {
+
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
-#container {
-    margin: auto;
-    margin-top:20px;
-    height: 400px;
-    width: 600px;
-    position: relative;
-    border: 5px solid black;
-}
-
-#container > #resim {
-    height: 100%;
-    width: 100%;
-    z-index:0;
-}
-
-#container > #desen {
-    height: 100%;
-    width: 100%;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index:-1;
-    height: 120%;
-    width: 200%;
-}
-
-@media only screen and (max-width:600px) {
-
-    body {
-        text-align: center;
-        background-color: #F4EFE9;
-        height: 100vh;
-        overflow: hidden !important;
-    }
-    
-    h1#name {
-        margin: auto;
-        margin-top: 50px;
-        text-align: center;
-        color: #585858;
-        font-family: 'PT Serif', serif;
-        font-size:7vw;
-        letter-spacing: 5px;
-        width: 90vw;
-        height: 10vh;
-    }
-    
-    #container {
-        margin: auto;
-        margin-top:20px;
-        height:60vh;
-        width: 90vw;
-        position: relative;
-        border: 5px solid black;
-    }
-    
-    #container > #resim {
-        height: 100%;
-        width: 100%;
-        z-index:0;
-    }
-    
-    #container > #desen {
-        height: 100%;
-        width: 100%;
-        position:absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index:-1;
-        height: 120%;
-        width: 200%;
-    }
-
+h1 {
+    color: #606160;
 }

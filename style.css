@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body {
+    text-align: center;
+    background-color: #F4EFE9;
+}
+
+h1#name {
+    color: #585858;
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#resim {
+
+    border: 5px solid white;
+    height: 400px;
+    width: 50vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index:0;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+}
+
+#desen {
+
+ 
+    height: 500px;
+    width: 80vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}

@@ -6,84 +6,87 @@ body {
 }
 
 h1#name {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
     color: #585858;
     font-family: 'PT Serif', serif;
     font-size: 50px;
     letter-spacing: 5px;
-    position: absolute;
-    top:5%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+   
 }
 
-#resim {
-
-    border: 5px solid white;
+#container {
+    margin: auto;
+    margin-top:20px;
     height: 400px;
-    width: 50vw;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 600px;
+    position: relative;
+    border: 5px solid black;
+}
+
+#container > #resim {
+    height: 100%;
+    width: 100%;
     z-index:0;
-    box-shadow: 0 0 10px black;
-    border-radius: 5px;
 }
 
-#desen {
-
- 
-    height: 500px;
-    width: 80vw;
-    position: absolute;
-    top: 55%;
+#container > #desen {
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    z-index: -1;
+    z-index:-1;
+    height: 120%;
+    width: 200%;
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:600px) {
+
     body {
         text-align: center;
         background-color: #F4EFE9;
-        height: 100vh;
     }
     
     h1#name {
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
         color: #585858;
         font-family: 'PT Serif', serif;
-        font-size: 30px;
+        font-size:7vw;
         letter-spacing: 5px;
-        position: absolute;
-        top:5%;
-        left: 50%;
-        transform: translate(-50%,-50%);
         width: 90vw;
+       
     }
     
-    #resim {
-    
-        border: 5px solid white;
-        height: 300px;
-        width: 90vw;
-        position: absolute;
-        top:35%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        z-index:0;
-        box-shadow: 0 0 10px black;
-        border-radius: 5px;
-    }
-    
-    #desen {
-    
-     
+    #container {
+        margin: auto;
+        margin-top:20px;
         height: 400px;
         width: 90vw;
-        position: absolute;
-        top:35%;
+        position: relative;
+        border: 5px solid black;
+    }
+    
+    #container > #resim {
+        height: 100%;
+        width: 100%;
+        z-index:0;
+    }
+    
+    #container > #desen {
+        height: 100%;
+        width: 100%;
+        position:absolute;
+        top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
-        z-index: -1;
+        z-index:-1;
+        height: 120%;
+        width: 200%;
     }
+
 }

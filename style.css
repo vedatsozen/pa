@@ -3,7 +3,7 @@
 body {
     text-align: center;
     background-color: #F4EFE9;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 h1#name {
@@ -50,7 +50,7 @@ h1#name {
         text-align: center;
         background-color: #F4EFE9;
         height: 100vh;
-        overflow: hidden;
+        overflow: hidden !important;
     }
     
     h1#name {

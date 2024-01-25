@@ -10,6 +10,10 @@ h1#name {
     font-family: 'PT Serif', serif;
     font-size: 50px;
     letter-spacing: 5px;
+    position: absolute;
+    top:15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #resim {
@@ -47,8 +51,12 @@ h1#name {
     h1#name {
         color: #585858;
         font-family: 'PT Serif', serif;
-        font-size: 20px;
+        font-size: 30px;
         letter-spacing: 5px;
+        position: absolute;
+        top:15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
     }
     
     #resim {

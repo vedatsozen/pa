@@ -11,7 +11,7 @@ h1#name {
     font-size: 50px;
     letter-spacing: 5px;
     position: absolute;
-    top:15%;
+    top:5%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -54,9 +54,10 @@ h1#name {
         font-size: 30px;
         letter-spacing: 5px;
         position: absolute;
-        top:15%;
+        top:5%;
         left: 50%;
         transform: translate(-50%,-50%);
+        width: 90vw;
     }
     
     #resim {
